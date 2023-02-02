@@ -1,5 +1,6 @@
-#include "gl/glut.h"
-#include <gl/gl.h>
+#include<GL/glu.h>
+#include <GL/glut.h>
+#include <Gl/gl.h>
 void Display(void)
 {
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
